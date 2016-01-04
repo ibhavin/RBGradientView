@@ -14,6 +14,8 @@
 		1FD19E3D1C3A4744000520E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD19E3C1C3A4744000520E1 /* Images.xcassets */; };
 		1FD19E401C3A4744000520E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FD19E3E1C3A4744000520E1 /* LaunchScreen.xib */; };
 		1FD19E4C1C3A4744000520E1 /* RBGradientViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD19E4B1C3A4744000520E1 /* RBGradientViewTests.m */; };
+		1FD19E571C3A4772000520E1 /* RBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD19E561C3A4772000520E1 /* RBView.m */; };
+		1FD19E5A1C3A4A26000520E1 /* RBTwoLayerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD19E591C3A4A26000520E1 /* RBTwoLayerGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		1FD19E451C3A4744000520E1 /* RBGradientViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBGradientViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD19E4A1C3A4744000520E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FD19E4B1C3A4744000520E1 /* RBGradientViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBGradientViewTests.m; sourceTree = "<group>"; };
+		1FD19E551C3A4772000520E1 /* RBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBView.h; sourceTree = "<group>"; };
+		1FD19E561C3A4772000520E1 /* RBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBView.m; sourceTree = "<group>"; };
+		1FD19E581C3A4A26000520E1 /* RBTwoLayerGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTwoLayerGradientView.h; sourceTree = "<group>"; };
+		1FD19E591C3A4A26000520E1 /* RBTwoLayerGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTwoLayerGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				1FD19E3C1C3A4744000520E1 /* Images.xcassets */,
 				1FD19E3E1C3A4744000520E1 /* LaunchScreen.xib */,
 				1FD19E2F1C3A4744000520E1 /* Supporting Files */,
+				1FD19E551C3A4772000520E1 /* RBView.h */,
+				1FD19E561C3A4772000520E1 /* RBView.m */,
+				1FD19E581C3A4A26000520E1 /* RBTwoLayerGradientView.h */,
+				1FD19E591C3A4A26000520E1 /* RBTwoLayerGradientView.m */,
 			);
 			path = RBGradientView;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				1FD19E381C3A4744000520E1 /* ViewController.m in Sources */,
 				1FD19E351C3A4744000520E1 /* AppDelegate.m in Sources */,
+				1FD19E5A1C3A4A26000520E1 /* RBTwoLayerGradientView.m in Sources */,
+				1FD19E571C3A4772000520E1 /* RBView.m in Sources */,
 				1FD19E321C3A4744000520E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
